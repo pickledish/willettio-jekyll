@@ -1,23 +1,48 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
 
-<div class="home">
+	<head>
 
-  <h1 class="page-heading">Posts</h1>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>willett dot io</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+		<style type="text/css">
+			body {
+				font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+			}
+			h1 {
+				font-weight: 300;
+				font-size: 48px;
+			}
+		</style>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+	</head>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+	<body>
 
-</div>
+		<section class="hero is-white is-fullheight">
+			<div class="hero-body">
+				<div class="container has-text-centered">
+
+					<h1> brandon willett </h1>
+
+					<hr>
+
+					<div class="columns is-variable is-6 is-centered">
+						<div class="column is-2"><a href="/about/">About</a></div>
+						<div class="column is-2"><a href="/projects/">Projects</a></div>
+						<div class="column is-2"><a href="/output/">Output</a></div>
+						<div class="column is-2"><a href="/contact/">Contact</a></div>
+						<div class="column is-2"><a href="/assets/Resume.pdf">Resume</a></div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+	</body>
+
+</html>

@@ -1,0 +1,75 @@
+body {
+	font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+}
+
+.section {
+	padding-top: 0px;
+}
+
+.footer {
+	padding-top: 0;
+	background-color: white;
+	padding-bottom: 3rem;
+}
+
+/* Makes the footer stick to the bottom of the page */
+.Site {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+.Site-content {
+	flex: 1;
+}
+
+/* Makes the line-breaks on the footer text mobile friendly */
+.cond-break {
+	display: block;
+}
+@media (min-width: 768px) {
+	.cond-break {
+		display: none;
+	}
+}
+
+.light {
+	font-weight: 300; }
+
+body {
+	font-size: 12pt; }
+
+ul, ol {
+	list-style: initial; }
+
+code, pre {
+	font-family: "Roboto Mono", monospace;
+	font-size: 10pt;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 48px;
+  margin: 0; }
+
+h2 {
+  font-weight: 600;
+  font-size: 32px;
+  border-bottom: 1px solid #cccccc; }
+
+h3 {
+  font-weight: 600;
+  font-size: 24px; }
+
+h4 {
+  font-weight: 600;
+  font-size: 18px; }
+
+h5 {
+  font-weight: 600;
+  font-size: 14px; }
+
+h6 {
+  font-weight: 600;
+  color: #777777;
+  font-size: 14px; }
+
