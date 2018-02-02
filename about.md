@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "brandon"
+permalink: /about/
 ---
 
 Who am I?
